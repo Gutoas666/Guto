@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(0,0,0);
+    background: linear-gradient(100deg, rgba(0,0,0,1) 0%, rgba(133,127,189,1) 50%, rgba(0,0,0,1) 99%);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium',;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgb(0,0,0);
+    background: linear-gradient(100deg, rgba(0,0,0,1) 0%, rgba(133,127,189,1) 50%, rgba(0,0,0,1) 99%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exercise-list {
+    align-items: center;
+    display: grid;
+    gap: 20px;
+}
+
+.exercise-item {
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: rgb(25,25,27);
+    background: linear-gradient(100deg, rgba(25,25,27,1) 0%, rgba(135,131,182,1) 50%, rgba(25,25,27,1) 100%); 
+}
+h2 {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #fff;
+    background: rgb(0,0,0);
+    background: linear-gradient(100deg, rgba(0,0,0,1) 0%, rgba(133,127,189,1) 50%, rgba(0,0,0,1) 99%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(38,11,83,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+.resultado {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #e9ecef;
+    font-family: 'Franklin Gothic Medium',;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+footer h5 {
+    margin: 0;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium',;
+}
+
+footer p {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+}
+div{
+    align-items: center;
+    text-align: center;
+}
